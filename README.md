@@ -71,6 +71,8 @@ Cтраница "детали компании" содержит:
 
 # Ссылка на домен
 
+https://cozy-pastelito-62c46b.netlify.app/
+
 # Screenshots
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px">
