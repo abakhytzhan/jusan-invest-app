@@ -1,0 +1,111 @@
+.search-modal {
+  position: relative;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 20px;
+  z-index: 10;
+  padding-bottom: 60px;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 16px;
+  padding: 20px 50px 20px 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+  background-color: #004046;
+  outline: none;
+  color: #fff;
+}
+
+.search-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  font-size: 16px;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  background-color: rgb(163, 160, 160);
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-reset {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+  font-size: 16px;
+  padding: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: none;
+  background-color: rgb(163, 160, 160);
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-reset:hover {
+  background-color: orangered;
+}
+
+.search-item {
+  padding: 5px;
+  margin-left: 20px;
+  width: 100%;
+  font-size: 16px;
+  color: #004046;
+}
+
+.search-item:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 5;
+}
+
+.companies {
+  width: 100%;
+  height: 332px;
+  overflow-y: auto;
+  padding: 0 10px 0px 10px;
+}
+
+.companiesTable {
+  width: 100%;
+  text-align: center;
+}
+
+.tableBody td {
+  line-height: 25px;
+}
+
+.tableBody tr:hover {
+  background-color: #004046;
+  color: #fff;
+  cursor: pointer;
+}
+
+.col-1,
+.col-3,
+.col-4 {
+  width: 75px;
+}

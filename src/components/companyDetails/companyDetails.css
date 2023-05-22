@@ -1,0 +1,33 @@
+.companyInfo {
+  width: 100%;
+  padding-top: 20px;
+  min-height: 355px;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  right: 20px;
+  color: #004046;
+}
+
+.chartTitle {
+  margin: 20px 0 20px 100px;
+  color: #004046;
+}
+
+.inactive {
+  display: none;
+}
+
+.companyImage {
+  height: 100px;
+  text-align: center;
+  margin: 40px 0;
+  font-size: 30px;
+  color: gray;
+}
+
+.companyImage img {
+  height: 100%;
+}

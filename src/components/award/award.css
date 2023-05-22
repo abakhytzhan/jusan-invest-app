@@ -1,0 +1,35 @@
+.awards {
+  padding: 0 90px;
+  margin-bottom: 60px;
+}
+
+.awards-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: #004046;
+}
+
+.awards-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.award-item {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 240px;
+  text-align: center;
+}
+
+.award-item img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.award-descr {
+  font-size: 14px;
+}
